@@ -1,3 +1,5 @@
+## Chapter 1 - The Hall of Armor
+
 
 The armory sat at the lowest habitable level of the Sungrave Citadel, in a place most soldiers had no reason to visit and fewer reasons to linger.
 
