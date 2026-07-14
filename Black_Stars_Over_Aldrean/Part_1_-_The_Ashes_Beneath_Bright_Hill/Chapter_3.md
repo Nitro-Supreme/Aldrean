@@ -46,6 +46,8 @@ She had white hair and violet-grey eyes and she was sitting with her back agains
 She looked at him without any particular alarm, which was either very calm of her or the result of how long she had been in this room.
 
 She appeared roughly his age, though something in the way she held herself made that estimate feel uncertain.
+Her stillness did not look like the stillness of someone who had simply run out of things to do with her hands.
+It looked practiced, the kind of composure that had been taught rather than found, though he could not have said where that impression came from or why he trusted it.
 Thin build.
 Pale skin.
 Layered robes that had been elegant once, now worn through at the elbows, the decorative border at the cuffs reduced to a faint impression of itself.
@@ -161,12 +163,18 @@ She looked at the floor.
 He learned her name but it took longer to learn her.
 
 She was not unfriendly, was the thing.
-He had expected detachment, the flattened affect of someone who had been in a small room alone for too long, but she was sharper than that, quicker.
+He had expected detachment, the flattened effect of someone who had been in a small room alone for too long, but she was sharper than that, quicker.
 She asked him questions about Bright Hill with the specific hunger of someone who had been cut off from information and missed it badly.
 Not gossip.
 Information.
-She wanted to know about the Matrix's council structure, about what scholars had published recently, about whether the sealed sections of the Citadel's lower levels had been opened.
-He answered what he could, which wasn't everything she asked, and she accepted the gaps without pushing.
+She wanted to know about the Matrix’s council structure, about what scholars had published recently, about whether the sealed sections of the Citadel’s lower levels had been opened.
+
+It struck him, distantly, as an odd set of things for a scholar to want to know first.
+Not the histories.
+The structure of who currently held power and how.
+He did not remark on it.
+He simply noted it, the way he noted most things, and set it aside.
+He answered what he could, which wasn’t everything she asked, and she accepted the gaps without pushing.
 
 She told him, on the second day, that he was the first person to share this cell in a long time.
 
@@ -195,6 +203,16 @@ He looked at the ceiling.
 "History, mostly.
 That is usually what I talk about when no one can argue with me."
 
+“Where are you from,” he asked, mostly to keep the quiet from settling back in.
+
+“Far enough that it doesn’t matter anymore.”
+She said it lightly, already moving past it.
+“Tell me something about Bright Hill instead.
+I’ve used up most of what I know.”
+
+He let it go.
+It did not occur to him yet that she had done this before, smoothly enough that he would not think to count it until much later.
+
 ---
 
 She told him about the Black Hole on the third day.
@@ -207,13 +225,14 @@ Not above it, not beside it: around it.
 Whoever had drawn the original plans had known exactly what was in the lower levels and had constructed the entire structure as a containment apparatus first, with everything else, the prison, the coliseum, and the laboratory levels.
 Appended later by people who understood the structure as a building rather than what it actually was.
 
-"A seal," Denji murmured.
+“A seal,” Denji murmured.
 
-She looked at him.
-"Yes.
-That's the right word for it."
+She looked at him for a moment before answering.
+“It’s the closest word I’ve found for it, in what little I’ve been able to read.”
+She paused.
+“I’ve never seen a source confirm it outright. I could have the shape of it wrong.”
 She studied his face for a moment.
-"How did you arrive at that."
+“How did you arrive at that.”
 
 "I don't know," he admitted, which was true.
 The word had arrived with a certainty he hadn't earned.
@@ -322,7 +341,9 @@ Her expression was the absence of expression.
 Not the neutrality of a resting face but a specific vacancy, like a room emptied of everything that made it a room.
 
 Behind her in the corridor, the guards.
-And beside her, a tall man in dark military clothing.
+One of them glanced toward Aife where she stood near the back wall and then away again quickly, the way a man looks away from something he has been told not to look at.
+It was there and gone in less than a second, and Denji would not think to question it until far later than he should have.
+Beside Kiana, a tall man in dark military clothing.
 
 Long black hair with silver in it.
 He wore a black and red mask, covering his face in an ominous yet simple way.
