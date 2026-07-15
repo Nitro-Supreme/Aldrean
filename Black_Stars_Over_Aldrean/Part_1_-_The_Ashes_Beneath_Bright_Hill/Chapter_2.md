@@ -63,6 +63,32 @@ And stay out of the way when he gets going."
 Tael filed this information without comment.
 He had already heard the same thing from two other men that morning, phrased differently but arriving at the same place.
 
+Kellan found him a few minutes later, cutting through the courtyard with the loose, unhurried walk of someone who had never once in his life been early to anything and had stopped apologizing for it.
+"Orryn's been staring at you again," he said, falling into step beside Denji without asking.
+"Thinks it's unnatural, all that surviving you do."
+
+"You've heard this speech."
+
+“I’ve heard it three times this morning, actually, from three different men, which I think says more about them than it does about you.”
+Kellan bumped his shoulder against Denji’s, easy and unbothered, the way he’d done it since they were recruits together.
+“For what it’s worth, I don’t think it’s unnatural.
+I think you’re just annoyingly hard to kill, and I intend to keep standing near you because of it.”
+
+Denji almost smiled. It was, he thought, the only conversation he’d had all morning that hadn’t required him to explain himself.
+
+Kellan glanced sideways and caught the almost-smile like he’d been fishing for it. “There he is.”
+
+They walked the rest of the way to the gathering line without either of them saying anything else.
+Denji noticed, not for the first time, how much easier the silence was with Kellan than it was with almost anyone else.
+
+Kellan’s armor didn’t quite fit him, and hadn’t for months.
+He’d traded the proper pauldrons to a smaller recruit who’d shown up to her first posting in gear two sizes too large and looking like she might cry about it.
+He’d simply never asked for his own back, wearing the loose replacement instead with the specific unconcern of a man who considered comfort a lower priority than not watching someone else struggle.
+
+“You’re going to get that arm taken off one of these days, wearing it like that,” Denji told him.
+
+“Probably,” Kellan agreed cheerfully, checking the strap at his shoulder anyway, “but it’ll be a good story.”
+
 ---
 
 Aella found him near the east gate, which she had done after checking everywhere else he was supposed to be.
