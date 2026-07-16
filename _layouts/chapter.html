@@ -4,21 +4,23 @@ layout: default
 
 {% assign chapters = site.chapters | sort: "chapter_number" %}
 
-{% assign current_index = -1 %}
+{% assign current = page.chapter_number | plus: 0 %}
+
+{% assign previous_number = current | minus: 1 %}
+{% assign next_number = current | plus: 1 %}
+
+{% assign previous = nil %}
+{% assign next = nil %}
+
 {% for chapter in chapters %}
-  {% if chapter.url == page.url %}
-    {% assign current_index = forloop.index0 %}
+  {% if chapter.chapter_number == previous_number %}
+    {% assign previous = chapter %}
+  {% endif %}
+
+  {% if chapter.chapter_number == next_number %}
+    {% assign next = chapter %}
   {% endif %}
 {% endfor %}
-
-{% if current_index > 0 %}
-  {% assign previous = chapters[current_index | minus: 1] %}
-{% endif %}
-
-{% assign last_index = chapters.size | minus: 1 %}
-{% if current_index < last_index %}
-  {% assign next = chapters[current_index | plus: 1] %}
-{% endif %}
 
 <article class="chapter-container">
 
