@@ -190,6 +190,30 @@ a:hover {
   padding-left: 0.5rem;
 }
 
+.part-heading {
+    margin-top: 2.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.part-subtitle {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.chapter-list {
+    margin-bottom: 2rem;
+}
+
+.chapter-subtitle {
+    text-decoration: none;
+}
+
+.chapter-subtitle:hover {
+    text-decoration: underline;
+}
+
 /* ========================================
    CHAPTER PAGE
    ======================================== */
