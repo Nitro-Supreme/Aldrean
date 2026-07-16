@@ -32,7 +32,7 @@ plugins:
 collections:
   chapters:
     output: true
-    permalink: /chapters/:basename/
+#    permalink: /chapters/:name/
 
 defaults:
   - scope:
