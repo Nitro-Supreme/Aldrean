@@ -2,84 +2,49 @@
 layout: default
 ---
 
-{% assign chapters = site.chapters | sort: "chapter_number" %}
-
-{% assign current = page.chapter_number | plus: 0 %}
-
-{% assign previous_number = current | minus: 1 %}
-{% assign next_number = current | plus: 1 %}
-
-{% assign previous = nil %}
-{% assign next = nil %}
-
-{% for chapter in chapters %}
-  {% if chapter.chapter_number == previous_number %}
-    {% assign previous = chapter %}
-  {% endif %}
-
-  {% if chapter.chapter_number == next_number %}
-    {% assign next = chapter %}
-  {% endif %}
-{% endfor %}
-
 <article class="chapter-container">
-
   <header class="chapter-header">
     <h1 class="chapter-title">{{ page.title }}</h1>
-
     {% if page.subtitle %}
       <p class="chapter-subtitle">{{ page.subtitle }}</p>
     {% endif %}
   </header>
 
   {% if page.audio_file %}
-    <div class="audio-player-container">
-      <h3>Listen to this chapter:</h3>
-
-      <audio controls class="audio-player">
-        <source src="{{ page.audio_file | relative_url }}" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-
-      {% if page.audio_duration %}
-        <p class="audio-duration">
-          Duration: {{ page.audio_duration }}
-        </p>
-      {% endif %}
-    </div>
-
+  <div class="audio-player-container">
+    <h3>Listen to this chapter:</h3>
+    <audio controls class="audio-player">
+      <source src="{{ page.audio_file | relative_url }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    {% if page.audio_duration %}
+      <p class="audio-duration">Duration: {{ page.audio_duration }}</p>
+    {% endif %}
+  </div>
   {% else %}
-    <div class="audio-player-container placeholder">
-      <p class="coming-soon">
-        🎧 Audio narration coming soon...
-      </p>
-    </div>
+  <div class="audio-player-container placeholder">
+    <p class="coming-soon">🎧 Audio narration coming soon...</p>
+  </div>
   {% endif %}
 
   <div class="chapter-content">
     {{ content }}
   </div>
 
-  <nav class="chapter-nav">
+ <nav class="chapter-nav">
+  {% if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}" class="prev-chapter">
+      ← Previous: {{ page.previous.title }}
+    </a>
+  {% endif %}
 
-    {% if previous %}
-      <a class="prev-chapter"
-         href="{{ previous.url | relative_url }}">
-        ← Previous: {{ previous.title }}
-      </a>
-    {% endif %}
+  {% if page.next %}
+    <a href="{{ page.next.url | relative_url }}" class="next-chapter">
+      Next: {{ page.next.title }} →
+    </a>
+  {% endif %}
 
-    {% if next %}
-      <a class="next-chapter"
-         href="{{ next.url | relative_url }}">
-        Next: {{ next.title }} →
-      </a>
-    {% endif %}
+</nav>
 
-  </nav>
-
-  <a class="back-home" href="{{ '/' | relative_url }}">
-    Back to Table of Contents
-  </a>
-
+<a href="{{ '/' | relative_url }}" class="back-home">Back to Table of Contents</a>
 </article>
