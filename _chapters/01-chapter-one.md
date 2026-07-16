@@ -3,7 +3,7 @@ layout: chapter
 title: "Chapter One"
 subtitle: "The First Star"
 chapter_number: 1
-slug: "chapter-one"
+part: 1
 audio_file: null
 audio_duration: null
 ---
@@ -12,15 +12,9 @@ Begin your story here. This is a template chapter to show you how to structure y
 
 When you're ready, replace this content with your actual chapter text.
 
-## How to Add More Chapters
+## How to Add Chapters to Parts
 
-Create new files in the `_chapters/` folder following this naming convention:
-
-- `01-chapter-one.md`
-- `02-chapter-two.md`
-- `03-chapter-three.md`
-
-Each file needs this front matter:
+Each chapter needs these fields in front matter:
 
 ```yaml
 ---
@@ -28,11 +22,13 @@ layout: chapter
 title: "Chapter Two"
 subtitle: "Optional subtitle here"
 chapter_number: 2
-slug: "chapter-two"
+part: 1
 audio_file: null
 audio_duration: null
 ---
 ```
+
+The `part` field (1, 2, 3, or 4) determines which part the chapter appears under in the Table of Contents.
 
 ## Adding Audio Narration
 
@@ -45,13 +41,6 @@ When you're ready to add MP3 files:
    - Set `audio_duration: "XX minutes XX seconds"`
 
 The audio player will appear automatically at the top of the chapter.
-
-## Formatting Your Content
-
-- Use `##` for section headers within chapters
-- Use `**text**` for **bold** emphasis
-- Use `*text*` for *italics*
-- Separate scenes with a blank line for readability
 
 ---
 
