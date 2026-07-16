@@ -18,16 +18,32 @@ A dark fantasy novel exploring a world trapped by something greater than humanit
 
 {% case current_part %}
   {% when 1 %}
-    <h2 class="part-heading">Part 1 - <em>The Seal Beneath</em></h2>
+    <h2 class="part-heading">
+      <span class="part-number">Part 1</span>
+      <span class="part-divider"> - </span>
+      <span class="part-name"><em>The Seal Beneath</em></span>
+    </h2>
 
   {% when 2 %}
-    <h2 class="part-heading">Part 2 - <em>The Devourer's Debt</em></h2>
+    <h2 class="part-heading">
+      <span class="part-number">Part 2</span>
+      <span class="part-divider"> - </span>
+      <span class="part-name"><em>The Devourer's Debt</em></span>
+    </h2>
 
   {% when 3 %}
-    <h2 class="part-heading">Part 3 - <em>Kethyr's Hollow</em></h2>
+    <h2 class="part-heading">
+      <span class="part-number">Part 3</span>
+      <span class="part-divider"> - </span>
+      <span class="part-name"><em>Kethyr's Hollow</em></span>
+    </h2>
 
   {% when 4 %}
-    <h2 class="part-heading">Part 4 - <em>The Last Dawn of Aldrean</em></h2>
+    <h2 class="part-heading">
+      <span class="part-number">Part 4</span>
+      <span class="part-divider"> - </span>
+      <span class="part-name"><em>The Last Dawn of Aldrean</em></span>
+    </h2>
 {% endcase %}
 
     <ul class="chapter-list">
