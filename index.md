@@ -5,7 +5,7 @@ title: Aldrean
 
 # Welcome to Aldrean
 
-A dark fantasy novel exploring worlds beyond mortal comprehension.
+A dark fantasy novel exploring a world trapped by something greater than humanity can comprehend.
 
 ## Table of Contents
 
