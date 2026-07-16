@@ -1,0 +1,387 @@
+/* ========================================
+   ALDREAN - DARK FANTASY NOVEL WEBSITE
+   ======================================== */
+
+:root {
+  --primary-dark: #0a0e27;
+  --secondary-dark: #1a1f3a;
+  --accent-gold: #d4af37;
+  --accent-purple: #8b5cf6;
+  --text-light: #e8e6e1;
+  --text-muted: #a8a6a1;
+  --border-color: #2d3748;
+  --hover-bg: #252d4a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Crimson Text', serif;
+  background-color: var(--primary-dark);
+  color: var(--text-light);
+  line-height: 1.8;
+  letter-spacing: 0.3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--accent-gold);
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-shadow: 0 2px 10px rgba(212, 175, 55, 0.3);
+}
+
+h2 {
+  font-size: 2.2rem;
+  border-bottom: 2px solid var(--accent-gold);
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: var(--accent-purple);
+}
+
+p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+a {
+  color: var(--accent-gold);
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  color: var(--accent-purple);
+  text-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+  border-bottom: 1px solid var(--accent-purple);
+}
+
+/* ========================================
+   NAVBAR
+   ======================================== */
+
+.navbar {
+  background-color: var(--secondary-dark);
+  border-bottom: 2px solid var(--accent-gold);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-family: 'Cinzel', serif;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--accent-gold);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-light);
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--accent-gold);
+  border-bottom-color: var(--accent-gold);
+}
+
+/* ========================================
+   CONTAINER & LAYOUT
+   ======================================== */
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  min-height: calc(100vh - 200px);
+}
+
+.home-container {
+  text-align: center;
+}
+
+.home-container h1 {
+  margin-bottom: 2rem;
+  animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ========================================
+   TABLE OF CONTENTS
+   ======================================== */
+
+.toc-container {
+  background-color: var(--secondary-dark);
+  border: 2px solid var(--accent-gold);
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.15);
+}
+
+.toc-container ol {
+  list-style-position: inside;
+  columns: 2;
+  gap: 2rem;
+}
+
+.toc-container li {
+  margin-bottom: 0.8rem;
+  font-size: 1.05rem;
+  break-inside: avoid;
+}
+
+.toc-container a {
+  color: var(--accent-gold);
+  transition: all 0.3s ease;
+}
+
+.toc-container a:hover {
+  color: var(--accent-purple);
+  padding-left: 0.5rem;
+}
+
+/* ========================================
+   CHAPTER PAGE
+   ======================================== */
+
+.chapter-container {
+  animation: fadeIn 0.6s ease-in;
+}
+
+.chapter-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 3px double var(--accent-gold);
+}
+
+.chapter-title {
+  margin-bottom: 0.5rem;
+}
+
+.chapter-subtitle {
+  font-family: 'Cinzel', serif;
+  font-size: 1.3rem;
+  color: var(--accent-purple);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+/* ========================================
+   AUDIO PLAYER
+   ======================================== */
+
+.audio-player-container {
+  background-color: var(--secondary-dark);
+  border: 2px solid var(--accent-gold);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.15);
+}
+
+.audio-player-container h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: var(--accent-gold);
+}
+
+.audio-player {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: var(--primary-dark);
+  accent-color: var(--accent-gold);
+}
+
+.audio-player::-webkit-media-controls-panel {
+  background-color: var(--secondary-dark);
+}
+
+.audio-duration {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.audio-player-container.placeholder {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(139, 92, 246, 0.1));
+}
+
+.coming-soon {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* ========================================
+   CHAPTER CONTENT
+   ======================================== */
+
+.chapter-content {
+  font-size: 1.15rem;
+  line-height: 2;
+  text-align: justify;
+  margin: 3rem 0;
+  color: var(--text-light);
+}
+
+.chapter-content p {
+  margin-bottom: 1.8rem;
+  first-letter {
+    font-size: 1.5em;
+  }
+}
+
+/* ========================================
+   CHAPTER NAVIGATION
+   ======================================== */
+
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 3rem 0 2rem;
+  flex-wrap: wrap;
+}
+
+.prev-chapter,
+.next-chapter {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  background-color: var(--secondary-dark);
+  border: 2px solid var(--accent-gold);
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.prev-chapter:hover,
+.next-chapter:hover {
+  background-color: var(--hover-bg);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+.back-home {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--secondary-dark);
+  border: 2px solid var(--accent-purple);
+  border-radius: 5px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.back-home:hover {
+  background-color: var(--hover-bg);
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.5);
+}
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+.footer {
+  background-color: var(--secondary-dark);
+  border-top: 2px solid var(--accent-gold);
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
+@media (max-width: 768px) {
+  .nav-menu {
+    gap: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .toc-container ol {
+    columns: 1;
+  }
+
+  .chapter-nav {
+    flex-direction: column;
+  }
+
+  .chapter-content {
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 2rem 1rem;
+  }
+}

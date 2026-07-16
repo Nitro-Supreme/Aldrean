@@ -1,0 +1,42 @@
+# Jekyll Configuration for Aldrean Novel
+title: "Aldrean"
+description: "A dark fantasy novel"
+url: "https://nitro-supreme.github.io/Aldrean"
+baseurl: "/Aldrean"
+
+# Theme
+theme: null
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Syntax highlighting
+highlight: rouge
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Enable plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Collections for chapters
+collections:
+  chapters:
+    output: true
+    permalink: /chapters/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "chapter"
