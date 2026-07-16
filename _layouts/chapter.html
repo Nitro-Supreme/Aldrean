@@ -43,6 +43,10 @@ layout: default
       Next: {{ page.next.title }} →
     </a>
   {% endif %}
+   <p>Current URL: {{ page.url }}</p>
+<p>Next URL: {{ page.next.url }}</p>
+<p>Previous URL: {{ page.previous.url }}</p>
+<p>Base URL: {{ site.baseurl }}</p>
 </nav>
       <a href="{{ page.next.url }}" class="next-chapter">Next: {{ page.next.title }} →</a>
     {% endif %}
