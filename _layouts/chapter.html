@@ -31,11 +31,19 @@ layout: default
     {{ content }}
   </div>
 
-  <nav class="chapter-nav">
-    {% if page.previous %}
-      <a href="{{ page.previous.url }}" class="prev-chapter">← Previous: {{ page.previous.title }}</a>
-    {% endif %}
-    {% if page.next %}
+ <nav class="chapter-nav">
+  {% if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}" class="prev-chapter">
+      ← Previous: {{ page.previous.title }}
+    </a>
+  {% endif %}
+
+  {% if page.next %}
+    <a href="{{ page.next.url | relative_url }}" class="next-chapter">
+      Next: {{ page.next.title }} →
+    </a>
+  {% endif %}
+</nav>
       <a href="{{ page.next.url }}" class="next-chapter">Next: {{ page.next.title }} →</a>
     {% endif %}
   </nav>
