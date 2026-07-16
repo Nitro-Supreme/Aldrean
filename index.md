@@ -24,39 +24,23 @@ A dark fantasy novel exploring a world trapped by something greater than humanit
 
     {% assign current_part = chapter.part %}
 
+    {% assign part_name = "" %}
     {% case current_part %}
       {% when 1 %}
-        <h2 class="part-heading">
-          <span class="part-number">Part 1</span>
-          <span class="part-divider"> - </span>
-          <span class="part-name"><em>The Seal Beneath</em></span>
-        </h2>
-
+        {% assign part_name = "The Seal Beneath" %}
       {% when 2 %}
-        <h2 class="part-heading">
-          <span class="part-number">Part 2</span>
-          <span class="part-divider"> - </span>
-          <span class="part-name"><em>The Devourer's Debt</em></span>
-        </h2>
-
+        {% assign part_name = "The Devourer's Debt" %}
       {% when 3 %}
-        <h2 class="part-heading">
-          <span class="part-number">Part 3</span>
-          <span class="part-divider"> - </span>
-          <span class="part-name"><em>Kethyr's Hollow</em></span>
-        </h2>
-
+        {% assign part_name = "Kethyr's Hollow" %}
       {% when 4 %}
-        <h2 class="part-heading">
-          <span class="part-number">Part 4</span>
-          <span class="part-divider"> - </span>
-          <span class="part-name"><em>The Last Dawn of Aldrean</em></span>
-        </h2>
+        {% assign part_name = "The Last Dawn of Aldrean" %}
     {% endcase %}
 
-    <ul class="chapter-list">
+    <h2 class="part-heading">
+      Part {{ current_part }}
+      <span class="part-name"> - <em>{{ part_name }}</em></span>
+    </h2>
 
-  {% endif %}
     <ul class="chapter-list">
 
   {% endif %}
@@ -65,6 +49,7 @@ A dark fantasy novel exploring a world trapped by something greater than humanit
     <a href="{{ chapter.url | relative_url }}">
       {{ chapter.title }}
     </a>
+
     {% if chapter.subtitle %}
       -
       <a href="{{ chapter.url | relative_url }}" class="chapter-subtitle">
