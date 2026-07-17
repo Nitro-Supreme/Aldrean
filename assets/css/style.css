@@ -546,7 +546,7 @@ a:hover {
 }
 
 /* ========================================
-   ALDREAN - COLLAPSIBLE NAV
+   ALDREAN - COLLAPSIBLE NAV (always-on hamburger)
    ======================================== */
 
 .nav-container {
@@ -556,7 +556,7 @@ a:hover {
 /* Hamburger button */
 
 .nav-toggle {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   justify-content: space-between;
   width: 28px;
@@ -593,13 +593,13 @@ a:hover {
   transform: translateY(-8.5px) rotate(-45deg);
 }
 
-/* Dropdown menu */
+/* Dropdown menu - hidden by default */
 
 .nav-menu {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  position: absolute;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+  position: absolute !important;
   top: calc(100% + 1rem);
   right: 0;
   min-width: 200px;
@@ -630,4 +630,18 @@ a:hover {
 .nav-menu .nav-link:hover {
   background-color: var(--hover-bg);
   border-bottom: none;
+}
+
+/* Explicit re-statement at wider breakpoints, in case an older
+   @media (min-width: ...) rule elsewhere in style.css is trying
+   to force the old horizontal nav-menu back on for desktop. */
+
+@media (min-width: 0px) {
+  .nav-toggle {
+    display: flex !important;
+  }
+  .nav-menu {
+    display: flex !important;
+    position: absolute !important;
+  }
 }
