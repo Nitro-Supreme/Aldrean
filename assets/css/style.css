@@ -544,3 +544,90 @@ a:hover {
   display: block;
   padding: 1rem 0;
 }
+
+/* ========================================
+   ALDREAN - COLLAPSIBLE NAV
+   ======================================== */
+
+.nav-container {
+  position: relative;
+}
+
+/* Hamburger button */
+
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 110;
+}
+
+.nav-toggle span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: var(--accent-gold);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.nav-toggle:hover span {
+  background-color: var(--accent-purple);
+}
+
+.nav-toggle.open span:nth-child(1) {
+  transform: translateY(8.5px) rotate(45deg);
+}
+
+.nav-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle.open span:nth-child(3) {
+  transform: translateY(-8.5px) rotate(-45deg);
+}
+
+/* Dropdown menu */
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: absolute;
+  top: calc(100% + 1rem);
+  right: 0;
+  min-width: 200px;
+  background-color: var(--secondary-dark);
+  border: 2px solid var(--accent-gold);
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+}
+
+.nav-menu.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.nav-menu .nav-link {
+  padding: 0.85rem 1.5rem;
+  border-bottom: none;
+  width: 100%;
+}
+
+.nav-menu .nav-link:hover {
+  background-color: var(--hover-bg);
+  border-bottom: none;
+}

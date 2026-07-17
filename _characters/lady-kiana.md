@@ -8,33 +8,33 @@ slug: lady-kiana
 short: "Studies suffering the way other people study weather."
 ---
 
-## Appearance
+## General Information
 
-Elegant black ceremonial clothing.
-Long dark hair.
-Pale skin.
-Emotionless expression.
-Movements feel unnaturally precise.
+- **Name:** Lady Kiana
+- **Nickname:** None
+- **Age:** Unknown; appears ageless
+- **Gender:** Female
+- **Height:** Average
+- **Build:** Slight, precise in every movement
+- **Intellect:** Highly analytical, clinical
 
-## Personality
+## Physicality
 
-Calm and deeply unsettling.
-Treats suffering scientifically.
-Obsessed with prophecy and evolution.
-Views humanity as transformable material rather than individuals.
+- **Accent:** Refined, formal Hold nobility
+- **Hair Length:** Long
+- **Hair Color:** Dark
+- **Eye Color:** Pale, unreadable
+- **Physical Ability:** Highly resistant to the Black Hole's distortions
+- **Skin Tone:** Pale
+- **Marks/Scars:** None visible
 
-## Abilities
+## Talents / Traits / Powers
 
-**Shadow Implantation:** Creates partial Shadows, manipulates corruption, conducts forbidden experiments, and is resistant to Black Hole distortions.
+- **Weapons:** Shadow implantation devices
+- **Traits:** Calm, clinical, obsessive, unsettling
+- **Talents:** Experimental science, Shadow manipulation research
+- **Magic/Power:** Shadow implantation, corruption manipulation
 
-## Character Arc
+## Character Bio
 
-Kiana believes humanity must evolve beyond its current form to survive. She has no idea she is experimenting on top of, and with materials drawn from, machinery built for an entirely different, far older purpose. Her experiments help unleash catastrophic events across Aldrean, entirely by accident.
-
-## Relationships
-
-**Erembour / Daeva** — Her son. She regards him with the same clinical attentiveness she gives her experiments, affection and utility blurred together so thoroughly that neither of them can fully separate them. She does not appear to suspect his double life as Daeva, or if she does, she hasn't acted on it.
-
-**Mei** — Her daughter, and one of her ongoing experimental subjects. Kiana does not treat this as a contradiction; she views Mei's suffering as necessary data rather than cruelty.
-
-**Donovan** — Her husband, and Erembour and Mei's father. Where Kiana pursues transformation actively, Donovan's passivity toward her methods is a known point of quiet contempt between him and his son.
+Kiana oversees the Hold's laboratory levels, where she studies prisoners with the same detached curiosity most people reserve for weather patterns. Calm to an unsettling degree, she genuinely believes humanity must evolve to survive what's coming, whatever the cost to the people in front of her.

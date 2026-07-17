@@ -8,41 +8,33 @@ slug: mei-soryn
 short: "Undefeated even when she has every reason not to be."
 ---
 
-## Appearance
+## General Information
 
-Black hair cut unevenly after imprisonment.
-Sharp amber eyes.
-Shadow-like markings slowly spread across parts of her body.
-Thin build from years of captivity.
-Wears practical combat clothing mixed with scavenged armor.
+- **Name:** Mei Soryn
+- **Nickname:** None
+- **Age:** Young adult
+- **Gender:** Female
+- **Height:** Average
+- **Build:** Thin, wiry, worn down by captivity
+- **Intellect:** Sharp, street-smart, quick to read people
 
-## Personality
+## Physicality
 
-Blunt and emotionally guarded.
-Fiercely resilient.
-Dry sense of humor.
-Struggles with self-worth.
-Protective of vulnerable people.
-Terrified of losing herself to Shadow corruption.
+- **Accent:** None distinct
+- **Hair Length:** Short, cut unevenly
+- **Hair Color:** Black
+- **Eye Color:** Amber
+- **Physical Ability:** Enhanced speed and reflexes, limited regeneration, both the result of experimentation
+- **Skin Tone:** Pale from years spent indoors
+- **Marks/Scars:** Shadow-like markings slowly spreading across parts of her body
 
-## Abilities
+## Talents / Traits / Powers
 
-**Partial Shadow Integration:** Because of Kiana's experiments, Mei has enhanced speed and reflexes, limited regeneration, the ability to sense Shadow distortions, partial resistance to corruption, and occasional unstable transformations.
+- **Weapons:** Whatever she can scavenge
+- **Traits:** Blunt, guarded, dry sense of humor, fiercely protective
+- **Talents:** Combat reflexes sharpened by years of captivity
+- **Magic/Power:** Partial Shadow integration
 
-## Character Arc
+## Character Bio
 
-Mei begins as a victim trying to survive imprisonment. Over time she becomes a resistance leader, proof humanity can endure corruption, and one of the emotional pillars of the group. Her journey centers on reclaiming agency and identity.
-
-## Relationships
-
-**Caiden** — Her eventual romantic partner. Their relationship develops through mutual trauma and emotional honesty.
-
-**Erembour** — Her older brother, and she has sympathy for his reasoning even when she doesn't agree with his methods.
-
-**Denji** — Trusts him because he refuses to abandon corrupted people.
-
-**Aella** — Sees Aella's fear of herself reflected in her own corruption.
-
-## Family
-
-Daughter of Kiana and Donovan, and Erembour's younger sister. A rebellious prisoner subjected to Kiana's ongoing experiments, which Kiana treats as necessary data rather than cruelty.
+Mei has spent years as a prisoner of the Hold, subjected to experiments she never agreed to and never stopped resisting anyway. Blunt, guarded, and quick with a dry joke even in bad situations, she's someone who learned to survive without losing the parts of herself worth keeping.

@@ -8,35 +8,33 @@ slug: caiden-veyr
 short: "An enemy soldier who stopped believing either side deserved to win."
 ---
 
-## Appearance
+## General Information
 
-Dark brown hair.
-Calm green eyes.
-Lean athletic frame.
-Usually smiling slightly even during tense situations.
-Wears lightweight black combat gear.
+- **Name:** Caiden Veyr
+- **Nickname:** None
+- **Age:** Young adult
+- **Gender:** Male
+- **Height:** Average
+- **Build:** Lean, athletic
+- **Intellect:** Sharp, tactically minded, dryly perceptive
 
-## Personality
+## Physicality
 
-Observant and intelligent.
-Darkly humorous.
-Calm under pressure.
-Emotionally perceptive.
-Deeply cynical early on.
-Slowly regains hope through the group.
+- **Accent:** Chimera territory accent
+- **Hair Length:** Short
+- **Hair Color:** Dark brown
+- **Eye Color:** Green
+- **Physical Ability:** Shapeshifting combat traits typical of Killers, including retractable claws and abnormal speed
+- **Skin Tone:** Fair
+- **Marks/Scars:** None notable
 
-## Abilities
+## Talents / Traits / Powers
 
-**Killer Instincts:** Assassin-level precision, tactical analysis, and skilled combat using large claws and abnormal speed, drawing on the shapeshifting abilities common to his race, the Killers.
+- **Weapons:** His own claws, shapeshifted at will
+- **Traits:** Calm, darkly funny, cynical at first, perceptive
+- **Talents:** Assassin-level precision, stealth
+- **Magic/Power:** Killer-type shapeshifting
 
-## Character Arc
+## Character Bio
 
-Caiden begins as an enemy soldier who no longer believes either side deserves victory. Over time he becomes one of Denji's closest allies, emotionally vulnerable again, and symbolic of reconciliation between enemies.
-
-## Relationships
-
-**Mei** — The emotional heart of his character arc.
-
-**Denji** — Develops strong mutual respect with him.
-
-**Erembour** — Understands Erembour's logic more than most characters, but rejects his conclusions.
+Once an enemy soldier, Caiden stopped believing either side of the war deserved to win long before he ever crossed paths with Denji's group. He's calm under pressure, funny at all the wrong moments, and has spent most of his life keeping people at arm's length. That's slowly starting to change.

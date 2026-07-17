@@ -8,38 +8,33 @@ slug: ognie-valen
 short: "The version of Denji who learned to live instead of merely survive."
 ---
 
-## Appearance
+## General Information
 
-Broad-shouldered and physically imposing.
-Dark red hair.
-Warm brown eyes.
-Numerous arena scars.
-Wears heavy ceremonial combat gear.
+- **Name:** Ognie Valen
+- **Nickname:** None formal, though arena crowds know him well
+- **Age:** Adult
+- **Gender:** Male
+- **Height:** Tall
+- **Build:** Broad-shouldered, physically imposing
+- **Intellect:** Street-smart, emotionally perceptive rather than academic
 
-## Personality
+## Physicality
 
-Charismatic and emotionally expressive.
-Reckless but compassionate.
-Protective of others.
-Finds joy easily despite apocalypse.
-Encourages Denji to emotionally open up.
+- **Accent:** Varkuun arena-culture accent
+- **Hair Length:** Medium
+- **Hair Color:** Dark red
+- **Eye Color:** Warm brown
+- **Physical Ability:** Exceptional physical strength, high pain tolerance
+- **Skin Tone:** Sun-weathered
+- **Marks/Scars:** Numerous arena scars
 
-## Abilities
+## Talents / Traits / Powers
 
-**Arena Champion:** Exceptional physical strength, brutal close-quarters combat, high pain tolerance, and the ability to inspire allies emotionally during battle. Unlike Denji, Ognie remains deeply human despite the violence around him.
+- **Weapons:** Heavy melee weapons, typical of Varkuun's arena combat
+- **Traits:** Charismatic, reckless, emotionally expressive, protective
+- **Talents:** Arena combat, rallying allies emotionally mid-fight
+- **Magic/Power:** None notable; relies on raw physical ability
 
-## Character Arc
+## Character Bio
 
-Ognie represents the version of Denji who learned to live instead of merely survive. He has, for years, half-known that Varkuun's arena culture feeds something beneath the city and chosen not to look closer, since looking closer would have cost him his title and his people's respect. Confronting that, alongside Denji, becomes part of his arc rather than a clean heroic introduction.
-
-## Relationships
-
-**Denji** — Even though they only recently met, they share a brotherly bond built on emotional healing and mutual respect.
-
-**Aella** — Treats her warmly and without fear even after her powers worsen.
-
-**Mei and Caiden** — Helps maintain hope and morale within the group.
-
-## Family
-
-Ognie's mother left Bright Hill shortly after his birth, choosing to raise him elsewhere rather than let him grow up as the unacknowledged illegitimate son of the Matrix. He was raised without knowledge of his father's identity for most of his life. His arrival in Varkuun and eventual bond with Denji is, from his side, partly the result of having gone looking for the family he was never given a place in.
+A champion of Varkuun's arena culture, Ognie is as at home in a packed coliseum as anyone can be. Charismatic, reckless, and easy with his emotions in a way few people around him are, he's spent his life being loved by crowds and known by almost no one. That starts to change when he meets a brother he never knew he had.

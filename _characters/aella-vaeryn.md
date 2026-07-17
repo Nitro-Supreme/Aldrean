@@ -8,51 +8,33 @@ slug: aella-vaeryn
 short: "The Clock-Bearer. Believes everyone deserves saving, even when the world stops agreeing."
 ---
 
-## Titles
+## General Information
 
-The Clock-Bearer, The Girl Beyond Time
+- **Name:** Aella Vaeryn
+- **Nickname:** The Clock-Bearer (a title she earns later, not one she chose)
+- **Age:** Young adult
+- **Gender:** Female
+- **Height:** Average
+- **Build:** Slender
+- **Intellect:** Emotionally perceptive, practically trained as a healer
 
-## Appearance
+## Physicality
 
-Long silver-blonde hair.
-Pale gold eyes that occasionally freeze unnaturally still.
-Soft facial features contrasted by an increasingly distant expression as her powers develop.
-Wears white-and-gold healer robes early in the story, later adopting darker layered clothing as things worsen.
-Small black fractures occasionally appear around her irises during temporal surges.
+- **Accent:** Standard Bright Hill dialect
+- **Hair Length:** Long
+- **Hair Color:** Silver-blonde
+- **Eye Color:** Pale gold, occasionally freezing unnaturally still
+- **Physical Ability:** None beyond a healer's steady hands, for now
+- **Skin Tone:** Fair
+- **Marks/Scars:** Small black fractures sometimes appear around her irises under stress
 
-## Personality
+## Talents / Traits / Powers
 
-Kind and emotionally open.
-Strongly empathetic toward suffering.
-Believes everyone deserves saving.
-Emotionally resilient but internally terrified.
-Hates violence despite becoming increasingly dangerous.
-Fears isolation more than death.
+- **Weapons:** None; relies on healing sigils rather than combat
+- **Traits:** Warm, empathetic, quietly stubborn, afraid of isolation
+- **Talents:** Healing sigil-craft
+- **Magic/Power:** Unconscious, emerging temporal manipulation
 
-Aella slowly realizes she is becoming something humanity may fear more than the Shadows.
+## Character Bio
 
-## Abilities
-
-**Temporal Manipulation:** Aella can unconsciously manipulate causality and time, freezing moments briefly, reversing injuries, slowing or accelerating aging, seeing fragmented futures, and stabilizing or destabilizing reality around her. Her powers grow stronger alongside the collapse of the seal itself.
-
-**Why She Remembers:** Aella's soul has been reincarnated an unusually high number of times in a row, specifically near Bright Hill and the Hold, because her bloodline keeps settling near the seal sites. Ordinary proximity across dozens of consecutive incarnations has etched something into her soul, cycle after cycle, the way a groove deepens each time the same needle runs the same path. The trigger for actual memory breaking through is Time itself, matching her powers exactly; when she first freezes time, even unconsciously, she is briefly touching the part of her soul that exists outside the current cycle's timeline.
-
-## Character Arc
-
-Aella begins as a hopeful healer trying to save lives during war.
-
-Over time she becomes feared by humanity, tied to the collapse of the seal, and emotionally isolated by her own power.
-
-Her ultimate struggle is whether love can exist when she herself becomes catastrophic, and, in the final act, whether her death has to mean returning to the same cycle everyone else does.
-
-**Why her soul doesn't return to Barath-Sha:** her death in the final act happens because her powers spiral out of control, not because something simply kills her. Her death happens mid-fracture, her soul partially outside the current moment when her body stops. Barath-Sha's collection reaches for her and finds nothing continuous to grab. This is the first evidence in the whole story that the cycle's rules are not as absolute as everyone assumes, which sets up the ending.
-
-## Relationships
-
-**Denji** — The emotional center of her life. Their relationship becomes the core emotional anchor of the series.
-
-**Erembour** — He fears her more than anyone else, not because of prophecy, but because he has seen firsthand what happens to people who get too close to Barath-Sha for too long.
-
-**Aife** — One of the few people who studies Aella without immediately fearing her.
-
-**Mei** — Aella sees Mei as proof people can resist corruption and remain themselves.
+Aella trained as a healer within Bright Hill, and it shows in everything from her posture to her instinct to fix what's broken in front of her. Warm and a little relentless, she's the one most likely to talk Denji out of whatever corner he's disappeared into. Underneath the softness is someone who has quietly decided she refuses to accept that some people simply can't be saved.

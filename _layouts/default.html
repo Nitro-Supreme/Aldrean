@@ -11,13 +11,20 @@
   <nav class="navbar">
     <div class="nav-container">
       <a href="{{ '/' | relative_url }}" class="nav-logo">{{ site.title }}</a>
-      <div class="nav-menu">
-  <a href="{{ '/' | relative_url }}" class="nav-link">Home</a>
-  <a href="{{ '/#table-of-contents' | relative_url }}" class="nav-link">Chapters</a>
-  <a href="{{ '/characters/' | relative_url }}" class="nav-link">Characters</a>
-  <a href="{{ '/terms/' | relative_url }}" class="nav-link">Terms</a>
-  <a href="{{ '/side-stories/' | relative_url }}" class="nav-link">Side Stories</a>
-</div>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="{{ '/' | relative_url }}" class="nav-link">Home</a>
+        <a href="{{ '/#table-of-contents' | relative_url }}" class="nav-link">Chapters</a>
+        <a href="{{ '/characters/' | relative_url }}" class="nav-link">Characters</a>
+        <a href="{{ '/terms/' | relative_url }}" class="nav-link">Terms</a>
+        <a href="{{ '/side-stories/' | relative_url }}" class="nav-link">Side Stories</a>
+      </div>
     </div>
   </nav>
 
@@ -28,5 +35,7 @@
   <footer class="footer">
     <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
   </footer>
+
+  <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
 </body>
 </html>
