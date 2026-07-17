@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article class="chapter-container">
+{% if site.data.characters_visible contains page.slug %}
+  <header class="chapter-header">
+    <h1 class="chapter-title">{{ page.name }}</h1>
+    <p class="chapter-subtitle">
+      {{ page.role }}{% if page.faction %} &middot; {{ page.faction }}{% endif %}
+    </p>
+  </header>
+
+  <div class="chapter-content character-content">
+    {{ content }}
+  </div>
+{% else %}
+  <header class="chapter-header">
+    <h1 class="chapter-title">???</h1>
+    <p class="chapter-subtitle">This character hasn't been revealed yet.</p>
+  </header>
+  <div class="chapter-content character-content">
+    <p class="coming-soon centered">Check back after future chapters release.</p>
+  </div>
+{% endif %}
+
+  <a href="{{ '/characters/' | relative_url }}" class="back-home">Back to Characters</a>
+</article>

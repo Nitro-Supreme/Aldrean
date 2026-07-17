@@ -1,0 +1,26 @@
+# ============================================================
+# CHARACTER VISIBILITY LIST
+#
+# Only slugs listed here (uncommented) appear on the /characters/
+# grid page. If a character's slug is NOT in this list, visiting
+# their page directly will show a "not yet revealed" placeholder
+# instead of their actual profile.
+#
+# To reveal a character: remove the # from the front of their line.
+# To hide a character: add a # to the front of their line.
+#
+# Everything starts commented out (hidden), since full profiles
+# now include end-of-book information. Uncomment each character
+# as your published chapters catch up to what's safe to reveal
+# about them.
+# ============================================================
+
+#- denji-valen
+#- aella-vaeryn
+#- erembour
+#- aife-eltharyn
+#- lady-kiana
+#- mei-soryn
+#- caiden-veyr
+#- ognie-valen
+#- seraphelle-eltharyn

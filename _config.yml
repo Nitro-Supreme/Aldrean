@@ -28,15 +28,30 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-# Collections for chapters
+# Collections for chapters, characters, and side stories
 collections:
   chapters:
     output: true
 #    permalink: /chapters/:name/
+  characters:
+    output: true
+    permalink: /characters/:name/
+  side_stories:
+    output: true
+    permalink: /side-stories/:name/
 
 defaults:
   - scope:
       path: ""
       type: "chapters"
     values:
-      layout: "chapter"
+  - scope:
+      path: ""
+      type: "characters"
+    values:
+      layout: "character"
+  - scope:
+      path: ""
+      type: "side_stories"
+    values:
+      layout: "side-story"

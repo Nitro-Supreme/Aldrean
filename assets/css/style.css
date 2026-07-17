@@ -426,3 +426,121 @@ a:hover {
     padding: 2rem 1rem;
   }
 }
+
+/* ========================================
+   ALDREAN - SITE ADDITIONS
+   Characters / Terms / Side Stories
+   ======================================== */
+
+/* ----- Character Card Grid ----- */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+}
+
+.character-card {
+  display: block;
+  background-color: var(--secondary-dark);
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.character-card:hover {
+  border-color: var(--accent-gold);
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.25);
+  transform: translateY(-3px);
+}
+
+.character-card h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.2rem;
+  color: var(--accent-gold);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.character-card .card-role {
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  color: var(--accent-purple);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.3rem;
+}
+
+.character-card .card-faction {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 0.8rem;
+}
+
+.character-card .card-desc {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+/* ----- Character Profile Page ----- */
+
+.character-content h2 {
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+}
+
+/* ----- Terms / Glossary ----- */
+
+.terms-container {
+  margin: 2rem 0;
+}
+
+.term-category-heading {
+  margin-top: 2.5rem;
+}
+
+.term-entry {
+  background-color: var(--secondary-dark);
+  border: 1px solid var(--border-color);
+  border-left: 4px solid var(--accent-gold);
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.term-entry summary {
+  font-family: 'Cinzel', serif;
+  font-size: 1.15rem;
+  color: var(--accent-gold);
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  outline: none;
+}
+
+.term-entry summary::-webkit-details-marker {
+  color: var(--accent-purple);
+}
+
+.term-entry[open] summary {
+  margin-bottom: 0.8rem;
+  color: var(--accent-purple);
+}
+
+.term-entry p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-light);
+}
+
+/* ----- Small centered helper text (empty states) ----- */
+
+.coming-soon.centered {
+  text-align: center;
+  display: block;
+  padding: 1rem 0;
+}

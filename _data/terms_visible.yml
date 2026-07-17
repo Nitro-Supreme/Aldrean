@@ -1,0 +1,56 @@
+# ============================================================
+# TERM VISIBILITY LIST
+#
+# Only ids listed here (uncommented) appear on the /terms/ page.
+# The full definitions always live in _data/terms.yml, this file
+# just controls what's currently shown.
+#
+# To reveal a term: remove the # from the front of its line.
+# To hide a term: add a # to the front of its line.
+#
+# Everything starts commented out (hidden). Uncomment terms as
+# they're actually named or explained in your published chapters.
+# ============================================================
+
+# ----- Locations -----
+#- bright-hill
+#- sungrave-citadel
+#- the-hold
+#- quiet-tier
+#- the-coliseum
+#- eodwen
+#- varkuun
+#- vael-turog
+#- the-ark
+#- aldrean
+
+# ----- Factions & Titles -----
+- the-matrix
+- chimera
+#- killers
+#- dread-five
+
+# ----- Requezilla & Powers -----
+#- requezilla
+#- reque-heart
+#- requezilla-state
+#- requezilla-burst
+#- perfect-being
+#- immortals
+#- interdimensional-warlords
+
+# ----- Mythology & Cosmology -----
+#- barath-sha
+#- the-cycle
+#- custodians-failsafe
+#- silent-vow
+#- shadows
+#- relic-weapons
+#- nytharion
+#- elyrion
+
+# ----- Creatures -----
+#- beasts
+#- jades
+#- shadow-puppets
+#- hollowborn

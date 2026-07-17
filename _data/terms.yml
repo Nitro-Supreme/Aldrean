@@ -1,0 +1,187 @@
+# ============================================================
+# TERMS DATA
+#
+# This file holds every glossary entry. It does NOT control what's
+# visible on the site, that's handled separately by
+# _data/terms_visible.yml. Add new terms here any time; they won't
+# show up on /terms/ until their id is uncommented in the visible
+# list.
+#
+# Keep entries grouped by category in the order you want categories
+# to appear on the page.
+# ============================================================
+
+# ----- Locations -----
+
+- id: bright-hill
+  category: Locations
+  name: Bright Hill
+  definition: The fortress city serving as humanity's political and military center. Built atop ruins far older than the city itself. #ruins that are, unknown to anyone alive, part of the original sealing architecture.
+
+- id: sungrave-citadel
+  category: Locations
+  name: Sungrave Citadel
+  definition: The military and political heart of Bright Hill, containing the Hall of Armor, war chambers, and relic vaults. Its lowest levels were built directly above the founding cycle's sealing architecture.
+
+- id: the-hold
+  category: Locations
+  name: The Hold
+  definition: A subterranean fortress built directly around one of the physical entrances into Barath-Sha. Officially a prison and Chimera stronghold; its true founding purpose predates the Chimera entirely.
+
+- id: quiet-tier
+  category: Locations
+  name: The Quiet Tier
+  definition: The Hold's lower intake level, four stories below the entry chambers. Guards rotate out of the levels below it early, when they're willing to go at all.
+
+- id: the-coliseum
+  category: Locations
+  name: The Coliseum
+  definition: A brutal arena inside the Hold, built directly above the deepest part of the seal's architecture. Every fight feeds emotional and physical Requezilla into the seal below without the crowd knowing it.
+
+- id: eodwen
+  category: Locations
+  name: Eodwen
+  definition: A beautiful but emotionally distant forest city-state dedicated to preserving knowledge and societal stability, ruled through control of information and memory.
+
+- id: varkuun
+  category: Locations
+  name: Varkuun
+  definition: A militaristic arena kingdom where social status is determined through combat. An ancient machine beneath the city, unknown to its founders, converts violence and suffering into Requezilla that drains toward the seal.
+
+- id: vael-turog
+  category: Locations
+  name: Vael Turog
+  definition: The oldest surviving ruin on Aldrean, site of the Silent Vow's failed ritual and home to the Frozen Archives, guarded by the Dread Five member Caskiel.
+
+- id: the-ark
+  category: Locations
+  name: The Ark
+  definition: An ancient vessel from a previous cycle, built as a final escape plan to remove a portion of humanity from Aldrean permanently. It failed once before for lack of enough Requezilla to power it, and still waits, exactly where it was left.
+
+- id: aldrean
+  category: Locations
+  name: Aldrean
+  definition: The world itself, serving out a punishment most of its people don't know they're living inside, an eternal, repeating cycle created by a single choice made in the founding cycle.
+
+# ----- Factions & Titles -----
+
+- id: the-matrix
+  category: Factions & Titles
+  name: The Matrix
+  definition: The title held by Bright Hill's ruling authority, who holds final say over military decisions.
+
+- id: chimera
+  category: Factions & Titles
+  name: Chimera
+  definition: Humans altered through prolonged exposure to unstable Requezilla and biological experimentation, originally created beneath the Hold. Not naturally evil; many retain emotions, culture, and loyalty despite the corruption reshaping them.
+
+- id: killers
+  category: Factions & Titles
+  name: Killers
+  definition: A race of exceptionally powerful shapeshifting assassins of unknown origin, some ancient texts claim they descend from Devourers. Their presence in a battle usually signals something decisive is about to happen.
+
+- id: dread-five
+  category: Factions & Titles
+  name: The Dread Five
+  definition: Velmourn, Caskiel, Mordrek, Thessaly, and Vaeloth, once benevolent Aeons trapped when the original seal closed, each now pursuing a different, increasingly desperate theory of escape.
+
+# ----- Requezilla & Powers -----
+
+- id: requezilla
+  category: Requezilla & Powers
+  name: Requezilla
+  definition: The essence of life itself, flowing through every living being on Aldrean. Ordinary use is common knowledge, but it is also, quietly, what keeps Barath-Sha contained beneath the world.
+
+- id: reque-heart
+  category: Requezilla & Powers
+  name: Reque Heart
+  definition: The organ every living creature possesses that stores and circulates Requezilla. Children have the largest, most active Reque Hearts, which is why they're especially targeted in the story's darker history.
+
+- id: requezilla-state
+  category: Requezilla & Powers
+  name: Requezilla State
+  definition: A heightened state where the body temporarily exceeds its natural limits. Visibly changes the user's clothing into white robes and gold-accented armor, and grants limited levitation.
+
+- id: requezilla-burst
+  category: Requezilla & Powers
+  name: Requezilla Burst
+  definition: A far more dangerous escalation of the State, triggered by consuming harvested pure Requezilla. Adds unique appendages reflecting the user's fighting style, but the harvesting behind it is almost always inhumane.
+
+- id: perfect-being
+  category: Requezilla & Powers
+  name: Perfect Being
+  definition: The rarest phenomenon in recorded history, occurring when two highly compatible Requezilla users achieve complete biological and emotional synchronization, merging into one transcendent entity.
+
+- id: immortals
+  category: Requezilla & Powers
+  name: Immortals
+  definition: Beings with near-perfect Requezilla synchronization who cannot die of natural causes. Split into Aeons (benevolent, orderly) and Devourers (chaotic, appetite-driven), both cosmic in origin.
+
+- id: interdimensional-warlords
+  category: Requezilla & Powers
+  name: Interdimensional Warlords
+  definition: A rare classification of human Immortals capable of using the Requezilla State at catastrophic levels, distorting reality merely by existing.
+
+# ----- Mythology & Cosmology -----
+
+- id: barath-sha
+  category: Mythology & Cosmology
+  name: Barath-Sha
+  definition: The true name of what prisoners call the Black Hole, a cosmic Devourer with no fixed form, sealed beneath Aldrean by the original custodians. Not a place; the underworld travelers describe is its interior.
+
+- id: the-cycle
+  category: Mythology & Cosmology
+  name: The Cycle
+  definition: The repeating pattern of destruction and rebirth that has struck Aldrean roughly two dozen times, in which nearly everything is destroyed and reformed, and every soul is reincarnated without memory.
+
+- id: custodians-failsafe
+  category: Mythology & Cosmology
+  name: The Custodians' Failsafe
+  definition: An emergency purge mechanism built into the original sealing ritual, which erases and rebuilds the surface world just before the seal would otherwise fail, buying it time to stabilize without ever truly rupturing.
+
+- id: silent-vow
+  category: Mythology & Cosmology
+  name: The Silent Vow
+  definition: A cult, several cycles ago, who believed a large enough willing offering to Barath-Sha could earn true escape from the cycle. Thousands entered a physical entrance chanting together and died mid-chant. They were wrong about what would happen next.
+
+- id: shadows
+  category: Mythology & Cosmology
+  name: Shadows
+  definition: The trapped souls of the Silent Vow's population, caught mid-ritual instead of being processed and reincarnated, persisting across every cycle since, their voices locked permanently mid-chant.
+
+- id: relic-weapons
+  category: Mythology & Cosmology
+  name: Relic Weapons
+  definition: Weapons forged by binding one or more souls into a physical object. Willing bindings produce clean, stable abilities; harvested bindings produce raw, unpredictable power.
+
+- id: nytharion
+  category: Mythology & Cosmology
+  name: Nytharion
+  definition: The Perfect Being formed when Barath-Sha, newly freed from the seal, fuses with a willing host in the story's final act. A fusion built of hunger and control rather than compatibility.
+
+- id: elyrion
+  category: Mythology & Cosmology
+  name: Elyrion
+  definition: The Perfect Being formed in direct opposition to Nytharion, a fusion built on choice and consent rather than appetite.
+
+# ----- Creatures -----
+
+- id: beasts
+  category: Creatures
+  name: Beasts
+  definition: Animals transformed by unstable Requezilla exposure and dimensional fractures, ranging from mildly aggressive to city-destroying.
+
+- id: jades
+  category: Creatures
+  name: Jades
+  definition: Ancient, non-human entities older than the cycles themselves, who instinctively try to destroy or disrupt whatever they sense is destabilizing the seal, not understanding that their intervention often makes things worse.
+
+- id: shadow-puppets
+  category: Creatures
+  name: Shadow Puppets
+  definition: Mindless remnants of beings whose souls became partially, imperfectly bound to Aldrean through failed rituals or botched Relic Weapon forgings.
+
+- id: hollowborn
+  category: Creatures
+  name: The Hollowborn
+  definition: Individuals who survived catastrophic Requezilla overload but lost their humanity in the process, biologically alive but emotionally empty, lashing out with power far exceeding what's needed to kill.

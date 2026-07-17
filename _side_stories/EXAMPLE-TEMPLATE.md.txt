@@ -1,0 +1,23 @@
+This is a TEMPLATE, not a live file.
+
+When you're ready to add a real side story:
+
+1. Copy this content into a new file inside _side_stories/
+   Name it something like: silent-vow.md
+   (must end in .md, not .md.txt)
+
+2. Use this front matter at the top, then write the story below it in the
+   same one-sentence-per-line Markdown style as the chapters:
+
+---
+title: The Story Title
+subtitle: An optional subtitle
+order: 1
+audio_file: /assets/audio/your-file.mp3
+audio_duration: _:_
+---
+
+Story content goes here, formatted the same way as a normal chapter.
+
+3. The "order" number controls where it appears in the Side Stories table
+   of contents. Lower numbers appear first.
